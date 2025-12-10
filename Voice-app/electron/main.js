@@ -17,9 +17,8 @@ function createWindow() {
     win.loadFile(path.join(__dirname, 'dist/index.html'))
   }
 
-  // --- CAMBIA ESTO PARA QUE COINCIDA CON EL ENUNCIADO ---
   session.defaultSession.setPermissionRequestHandler((webContents, permission, callback) => {
-    const allowedPermissions = ['media']; // 'media' inclou micròfon i càmera
+    const allowedPermissions = ['media'];
     
     if (allowedPermissions.includes(permission)) {
       callback(true);
@@ -27,7 +26,6 @@ function createWindow() {
       callback(false);
     }
   });
-  // ------------------------------------------------------
 }
 
 app.whenReady().then(createWindow)
