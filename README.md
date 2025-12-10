@@ -40,3 +40,10 @@ Requisits previs: Tenir instal·lat **Node.js** i **NPM**.
    ```bash
    git clone [https://github.com/a24kimgalgal/voice-commander-electron.git](https://github.com/a24kimgalgal/voice-commander-electron.git)
    cd voice-commander-electron
+
+## ⚠️ Nota sobre l'API de Veu en Electron
+
+L'aplicació funciona perfectament en navegador (Chrome via localhost). 
+No obstant això, en l'executable d'Electron pot aparèixer un `NetworkError` al utilitzar el micròfon.
+
+**Motiu tècnic:** L'API `webkitSpeechRecognition` utilitza els servidors de Google per al processament. Google restringeix l'accés a aquesta API des de Chromium/Electron si no es configuren claus d'API de Google Cloud (que requereixen facturació). El codi és funcional, però el servei extern bloqueja la petició des de l'entorn d'escriptori sense credencials.
