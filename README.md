@@ -16,8 +16,6 @@ Aquest projecte és una **Prova de Concepte (PoC)** d'una interfície d'usuari n
 
 Aquí es pot veure el funcionament del canvi de tema i la gestió d'errors:
 
-![Uploading image(2).png…]()
-
 
 ## Guia de Comandes
 
