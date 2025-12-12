@@ -28,7 +28,7 @@ L'aplicació respon a les següents paraules clau (en català):
 | **"Mode Fosc"** | Canvia el tema | Tota l'aplicació passa a colors foscos |
 | **"Mode Clar"** | Canvia el tema | L'aplicació torna a colors clars |
 | **"Esborra"** | Reinicia l'estat | Torna al missatge inicial "En espera" |
-| | Gestió d'errors | Mostra un **Snackbar vermell** amb el text entès |
+| *Paraula no reconeguda*| Gestió d'errors | Mostra un **Snackbar vermell** amb el text entès |
 
 ## Instal·lació i Execució
 
