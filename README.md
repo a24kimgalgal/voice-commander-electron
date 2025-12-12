@@ -16,7 +16,12 @@ Aquest projecte és una **Prova de Concepte (PoC)** d'una interfície d'usuari n
 
 Aquí es pot veure el funcionament del canvi de tema i la gestió d'errors:
 
+Tema Clar:
 <img width="1919" height="949" alt="TemaClar" src="https://github.com/user-attachments/assets/b6d99f60-82cb-46ce-ad24-61e46ff08dbf" />
+
+Gestió d'errors:
+<img width="1885" height="938" alt="Error" src="https://github.com/user-attachments/assets/35427bcc-821d-4962-a2f5-7b6508235e25" />
+
 
 ## Guia de Comandes
 
