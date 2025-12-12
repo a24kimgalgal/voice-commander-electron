@@ -1,8 +1,8 @@
-# 🎤 Activitat 3: Interfície Natural (Control per Veu)
+# Activitat 3: Interfície Natural (Control per Veu)
 
 Aquest projecte és una **Prova de Concepte (PoC)** d'una interfície d'usuari natural (VUI) desenvolupada amb **Electron**, **Vue 3** i **Vuetify**. L'aplicació permet controlar l'estat de la interfície i el tema visual mitjançant comandes de veu, utilitzant la **Web Speech API** nativa.
 
-## 📋 Característiques
+## Característiques
 
 - **Reconeixement de Veu:** Ús de `webkitSpeechRecognition` encapsulat en un Vue Composable.
 - **Gestió de Permisos:** Configuració d'Electron per permetre l'accés al micròfon automàticament.
@@ -12,14 +12,14 @@ Aquest projecte és una **Prova de Concepte (PoC)** d'una interfície d'usuari n
   - **Snackbar d'error** quan no s'entén una comanda.
 - **Control de Tema:** Canvi entre *Mode Clar* i *Mode Fosc* per veu.
 
-## 🚀 Demostració
+## Demostració
 
 Aquí es pot veure el funcionament del canvi de tema i la gestió d'errors:
 
-![Demo de l'aplicació](src/assets/demo.gif)
-*(Si no es carrega la imatge, assegura't de pujar el teu GIF a la carpeta src/assets)*
+![Uploading image(2).png…]()
 
-## 🗣️ Guia de Comandes
+
+## Guia de Comandes
 
 L'aplicació respon a les següents paraules clau (en català):
 
@@ -27,12 +27,12 @@ L'aplicació respon a les següents paraules clau (en català):
 | :--- | :--- | :--- |
 | **"Saluda"** | Saluda l'usuari | Missatge de benvinguda en verd (Success) |
 | **"Ajuda"** | Mostra informació | Missatge informatiu en blau (Info) |
-| **"Mode Fosc"** | Canvia el tema | Tota l'aplicació passa a colors foscos 🌙 |
-| **"Mode Clar"** | Canvia el tema | L'aplicació torna a colors clars ☀️ |
+| **"Mode Fosc"** | Canvia el tema | Tota l'aplicació passa a colors foscos |
+| **"Mode Clar"** | Canvia el tema | L'aplicació torna a colors clars |
 | **"Esborra"** | Reinicia l'estat | Torna al missatge inicial "En espera" |
 | *(Text desconegut)* | Gestió d'errors | Mostra un **Snackbar vermell** amb el text entès |
 
-## 🛠️ Instal·lació i Execució
+## Instal·lació i Execució
 
 Requisits previs: Tenir instal·lat **Node.js** i **NPM**.
 
@@ -41,7 +41,7 @@ Requisits previs: Tenir instal·lat **Node.js** i **NPM**.
    git clone [https://github.com/a24kimgalgal/voice-commander-electron.git](https://github.com/a24kimgalgal/voice-commander-electron.git)
    cd voice-commander-electron
 
-## ⚠️ Nota sobre l'API de Veu en Electron
+## Nota sobre l'API de Veu en Electron
 
 L'aplicació funciona perfectament en navegador (Chrome via localhost). 
 No obstant això, en l'executable d'Electron pot aparèixer un `NetworkError` al utilitzar el micròfon.
